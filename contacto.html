@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="img/iconVet.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/contacto.css">
+    <title>Animalandia</title>
+
+    <!--Iconos, Letra Google Fonts, Normalize-->
+    <script src="https://kit.fontawesome.com/4bc23db062.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="logo animalandia">
+        </div>
+        <div class="botones">
+            <button class="b-azul"><i class="fa-solid fa-power-off"></i>Ingresar</button>
+            <button class="b-morado"><i class="fa-solid fa-user"></i>Registrarse</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html" class="item">Home</a>
+        <a href="equipo.html" class="item">Equipo</a>
+        <a href="servicios.html" class="item">Servicios</a>
+        <a href="agenda.html" class="item">Agenda</a>
+        <a href="tips.html" class="item">Tips</a>
+        <a href="contacto.html" class="item">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="contacto">
+            <article class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15908.227640828107!2d-74.103688!3d4.583806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb94d4852598b934!2sKuepa%20-%20Restrepo!5e0!3m2!1ses-419!2sco!4v1646398325032!5m2!1ses-419!2sco" width="350" height="350" style="border:10px blur gray;" allowfullscreen="" loading="lazy"></iframe>
+            </article>
+            
+            <article class="info-contacto">
+                    <h1 class="tseccion">¿Como encontrarnos?</h1>
+                    <ul>
+                        <li class="text"><img src="/img/location.svg" class="span"></i><strong>Direccion: </strong>Cra. 19 #20 - 21 Sur, Bogotá</li>
+                        <li class="text"><img src="/img/tel.svg" class="span"></i><strong>Telefono: </strong>601 222 2222</li>
+                        <li class="text1"><img src="/img/mail.svg" class="span"></i><strong>Email: </strong>contacto@kuepa.edu.co</li>
+                        <li class="text"><img src="/img/whatsapp.svg" class="span"></i><strong>Whatsapp</strong>+57 3137934903</li>
+                        <li class="text"><img src="/img/instagram.png" class="span"></i>@AnimalandiaPets</li>
+                    </ul>
+            </article>
+ 
+        </section>  
+        
+        <section class="containerform">
+            <center><h1><span class="TituloDudas">¿Dudas?</span> Escribenos</h1></center>
+
+                <form class="wrapper" name="form" action="https://www.youtube.com/watch?v=OX8QsS8so50" method="post" target="_blank" autocomplete="autocomplete">
+                    <div class="izquierda">
+                        <p>
+                            <label for="Nombre">Nombre completo</label>
+                            <input name="Nombre" id="Nombre" type="text" placeholder="Ingrese su Nombre" required style="width: 24.8rem;">
+                        </p>
+                        <p>
+                            <label for="email">Correo Electronico:</label>
+                            <input type="email" id="email" name="email" placeholder="Ingrese su email"  pattern="\w._%+-]+@[\w.-]+\.[a-zA-Z]{2,4}" style="width: 24.8rem;">
+                        </p>
+                
+                        <p>
+                        <label for="solicitud" >Ingrese su solicitud:</label>
+                            <button style="width: 24.8rem; border-radius: 20px; border-style: none; padding: 5px;">
+                                <input name="solicitud" id="solicitud" type="radio" checked required >Dudas
+                                <input name="solicitud" id="solicitud" type="radio" checked required>Sugerencias
+                                <input name="solicitud" id="solicitud" type="radio" checked required>Peticion
+                                <input name="solicitud" id="solicitud" type="radio" checked required>Otro
+                            </button></p>
+                        <p>
+                        <label for="pais">¿En que ciudad vives?</label>
+                        <select name="ciudad" id="ciudad" style="width: 24.8rem; border-radius: 20px;border-style: none; padding: 5px;">
+                            <option value="" selected>-</option>
+                            <option value="Arauca">Arauca</option>
+                            <option value="Armenia">Armenia</option>
+                            <option value="Barranquilla">Barranquilla</option>
+                            <option value="Bogotá">Bogotá</option>
+                            <option value="Bucaramanga">Bucaramanga</option>
+                            <option value="Cali">Cali</option>
+                            <option value="Cartagena">Cartagena</option>
+                            <option value="Cúcuta">Cúcuta</option>
+                            <option value="Florencia">Florencia</option>
+                            <option value="Ibagué">Ibagué</option>
+                            <option value="Leticia">Leticia</option>
+                            <option value="Manizales">Manizales</option>
+                            <option value="Medellín">Medellín</option>
+                            <option value="Mitú">Mitú</option>
+                            <option value="Mocoa">Mocoa</option>
+                            <option value="Montería">Montería</option>
+                            <option value="Neiva">Neiva</option>
+                            <option value="Pasto">Pasto</option>
+                            <option value="Pereira">Pereira</option>
+                            <option value="Popayán">Popayán</option>
+                            <option value="Puerto Carreño">Puerto Carreño</option>
+                            <option value="Puerto Inírida">Puerto Inírida</option>
+                            <option value="Quibdó">Quibdó</option>
+                            <option value="Riohacha">Riohacha</option>
+                            <option value="San Andrés">San Andrés</option>
+                            <option value="San José del Guaviare">San José del Guaviare</option>
+                            <option value="Santa Marta">Santa Marta</option>
+                            <option value="Sincelejo">Sincelejo</option>
+                            <option value="Tunja">Tunja</option>
+                            <option value="Valledupar">Valledupar</option>
+                            <option value="Villavicencio">Villavicencio</option>
+                            <option value="Yopal">Yopal</option>
+                        </select></p>
+
+                        <p>
+                            <label for="file" >Sube aqui tu archivo (Opcional)</label>
+                                <input type="file" name="file" id="file" style="width: 24.8rem;"> 
+                        </p>
+                    </div>
+
+                    <div class="derecha">
+                        <label for="observaciones" style="margin-left: 10rem; margin-bottom: 1rem;">Observaciones</label>
+                            <textarea rows="12" cols="50" name="observaciones" style="border-radius: 20px;border-style: none; padding: 5px;"></textarea>
+                        
+                    </div>    
+
+                    <div class="btn-form">
+                        <button><i class="fa-solid fa-paper-plane fa-botones-form"></i><input type="submit" value="Enviar" style="background-color: transparent;"></button>
+                        <button><i class="fa-solid fa-rectangle-xmark fa-botones-form"></i><input type="reset" value="Reestablecer" style="background-color: transparent;"></button>
+                    </div>
+
+                </form>
+        </section>
+    </main>
+
+</body>
+<footer>
+    <div class="box-footer">
+        <div class="foot">
+            <i class="fa-regular fa-building fa-3x"></i>
+            <h3>Sedes</h3>
+            <p>Sede Kennedy<br>Sede Suba<br>Sede Fontibon<br>Sede Centro<br></p>
+        </div>
+
+        <div class="foot">
+            <i class="fa-regular fa-building fa-3x"></i>
+            <h3>Sedes</h3>
+            <p>Sede Kennedy<br>Sede Suba<br>Sede Fontibon<br>Sede Centro<br></p>
+        </div>
+
+        <div class="foot">
+            <i class="fa-regular fa-building fa-3x"></i>
+            <h3>Sedes</h3>
+            <p>Sede Kennedy<br>Sede Suba<br>Sede Fontibon<br>Sede Centro<br></p>
+        </div>
+    </div>
+</footer>
+</html>

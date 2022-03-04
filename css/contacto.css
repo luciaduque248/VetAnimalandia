@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-color: #191919;
+    --white-color:#ffffff;
+    --purple-color: rgb(117, 41, 149);
+    --purplelight-color: rgb(169, 83, 206);
+    --aqua-color: aqua;
+    --gray-color: gray;
+    --ligh-color: #F3F3F3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color);
+}
+
+p{
+    color: var(--dark-color);
+    text-align: justify;
+}
+
+/* :::::::::::::::::::::::::: ESTILOS HOME ::::::::::::::::::::::::::::::: */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.fa-solid{
+    padding-right: 0.5rem;
+    
+}
+.logo img{
+    max-width: 270px;
+    width: 100%;
+}
+
+
+.b-azul{
+    font-weight: 600;
+    background: linear-gradient(#07ffff, #016e6e );
+    border-radius: 5px;
+    border-color: var(--white-color);
+    border-style: solid;
+    padding: 0.5rem 1rem;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+.b-azul:hover{
+    color: var(--white-color);
+    background: linear-gradient(#016e6e, #07ffff);
+    border-color: var(--white-color);
+    cursor: pointer;
+}
+
+.b-morado{
+    font-weight: 600;
+    background-color: var(--white-color);
+    border-color: var(--purple-color);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+
+
+
+
+.b-morado:hover{
+    color: var(--white-color);
+    background: var(--purple-color);
+    border-color: var(--purple-color);
+    cursor: pointer;
+
+}
+
+nav{
+    display: flex;
+    background-color: var(--purple-color);
+}
+
+.item{
+    padding: 1rem;
+    color: var(--white-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--purple-color);
+}
+
+.item:hover{
+    color: var(--white-color);
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: 0 0 10px rgb(180, 180, 180);
+    transition: all 0.5s ease;
+}
+
+/* :::::::::::::::::::::::::: ESTILOS PRIMERA SECCION ::::::::::::::::::::::::::::::: */
+#contacto{
+    padding: 2rem;
+    display: flex;
+    background-image: url(/img/fondoHuella.png);
+    margin: 2rem 5rem;
+
+}
+
+
+h1.tseccion{
+    font-size: 2rem;
+    color: var(--purple-color);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(173, 172, 172);
+}
+
+.info-contacto ul{
+    overflow: hidden;
+    list-style: none;
+    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+img.span{ 
+    vertical-align: middle;
+    margin: 1rem;
+    
+}
+
+.text{
+
+    margin-right: 2rem;
+}
+
+.text1{
+    margin-right: 4.5rem;
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::: FORMULARIO :::::::::::::::::::::::::::::::::::::::::::: */
+.containerform{
+    background-color: #9A80A7;
+    max-width: 100%;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    align-items: flex-start;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.izquierda{
+    margin-top: 1.5rem;
+    width: 60%;
+}
+
+.derecha{
+    width: 40%;
+    
+}
+
+.btn-form{
+    margin: 1rem auto ;
+}
+
+::placeholder { color: rgb(165, 164, 164); font-weight: normal;}
+
+label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+
+}
+
+input{
+    border-radius: 20px;
+    border-style: none;
+    padding: 5px;
+}
+
+.TituloDudas{
+    color: #07ffff;
+    font-weight: 600;
+    text-shadow: 3px 3px 7px #3f3d3d;
+}
+
+.button cuadrosol{
+    width: 500px;
+}
+
+h1{
+    text-shadow: 3px 3px 7px #00000060; 
+}
+
+
+
+.fa-botones-form{
+    color: #191919;
+    transition: all;
+}
+
+.btn-form button{
+    display: inline-block;
+    padding: 10px 25px;
+    margin-bottom: 2rem;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.btn-form button:hover {background-color: plum}
+
+.btn-form button:active {
+  background-color: purple;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/*
+.mapa iframe{
+    border-radius: 50%;
+} */
+
+
+/* :::::::::::::::::::::::::: ESTILOS FOOTER ::::::::::::::::::::::::::::::: */
+
+footer{
+    background-image: url(../img/fondo.jpg);
+    
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgba(128, 0, 128, 0.356);
+    
+}
+
+.foot{
+    text-align: center;
+}
+
+.foot h3,i{
+    color: white;
+    font-weight: 500;
+
+}
+
+.foot p{
+    color: white;
+
+}

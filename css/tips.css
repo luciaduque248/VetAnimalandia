@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-color: #191919;
+    --white-color:#ffffff;
+    --purple-color: rgb(117, 41, 149);
+    --purplelight-color: rgb(169, 83, 206);
+    --aqua-color: aqua;
+    --gray-color: gray;
+    --ligh-color: #F3F3F3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color);
+}
+
+p{
+    color: var(--dark-color);
+    text-align: justify;
+}
+
+/* :::::::::::::::::::::::::: ESTILOS HOME ::::::::::::::::::::::::::::::: */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.fa-solid{
+    padding-right: 0.5rem;
+    
+}
+.logo img{
+    max-width: 270px;
+    width: 100%;
+}
+
+
+.b-azul{
+    font-weight: 600;
+    background: linear-gradient(#07ffff, #016e6e );
+    border-radius: 5px;
+    border-color: var(--white-color);
+    border-style: solid;
+    padding: 0.5rem 1rem;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+.b-azul:hover{
+    color: var(--white-color);
+    background: linear-gradient(#016e6e, #07ffff);
+    border-color: var(--white-color);
+    cursor: pointer;
+}
+
+.b-morado{
+    font-weight: 600;
+    background-color: var(--white-color);
+    border-color: var(--purple-color);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-right: 3rem;
+    cursor: pointer;
+    color: black;
+}
+
+.fa-iconoReg{
+    color: white;
+}
+
+
+.b-morado:hover{
+    color: var(--white-color);
+    background: var(--purple-color);
+    border-color: var(--purple-color);
+    cursor: pointer;
+
+}
+
+nav{
+    display: flex;
+    background-color: var(--purple-color);
+}
+
+.item{
+    padding: 1rem;
+    color: var(--white-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--purple-color);
+}
+
+.item:hover{
+    color: var(--white-color);
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: 0 0 10px rgb(180, 180, 180);
+    transition: all 0.5s ease;
+}
+
+/* :::::::::::::::::::::::::: ESTILOS PRIMERA SECCION ::::::::::::::::::::::::::::::: */
+
+
+
+/* :::::::::::::::::::::::::: ESTILOS FOOTER ::::::::::::::::::::::::::::::: */
+
+footer{
+    background-image: url(../img/fondo.jpg);
+    
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgba(128, 0, 128, 0.356);
+    
+}
+
+.foot{
+    text-align: center;
+}
+
+.foot h3,i{
+    color: white;
+    font-weight: 500;
+
+}
+
+.foot p{
+    color: white;
+
+}
