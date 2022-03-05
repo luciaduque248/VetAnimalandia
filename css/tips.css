@@ -109,7 +109,100 @@ nav{
 
 /* :::::::::::::::::::::::::: ESTILOS PRIMERA SECCION ::::::::::::::::::::::::::::::: */
 
+#tips{
+    background-image: url(/img/fondoHuellas.png);
+    background-repeat: no-repeat;
+    background-size: 84.5rem;
+    padding: 1.5rem 7rem;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.textup{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.textDown{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.iconoVin{
+    background-color: rgba(148, 112, 219, 0.719);
+    color: white;
+    width: 12rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 17rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arriba0{
+    display: flex;
+    padding-left: 1rem;
+}
+
+.izq{
+    width: 880px;
+}
+
+.izq h1{
+    color: rgb(1, 165, 165);
+}
+
+
+.dere h1{
+    color: rgba(1, 165, 165, 0.384);
+}
+
+.arriba{
+    display: flex;
+}
+
+.arriba img{
+    display: flex;
+    width: 600px;
+    height: 320px;
+    margin: 1rem 1rem;
+}
+
+.arriba p{
+    text-align: justify;
+    font-size: 19px;
+    line-height : 30px;
+    margin: 2rem 1rem;
+}
+
+.abajo{
+    display: flex;
+}
+
+.abajo img{
+    display: flex;
+    width: 600px;
+    height: 320px;
+    margin: 1rem 1rem;
+}
+
+.abajo p{
+    text-align: justify;
+    font-size: 20px;
+    line-height : 30px;
+    margin: 2rem 1rem;
+}
+
+.hueso{
+    margin: 1rem 35rem;
+}
 
 /* :::::::::::::::::::::::::: ESTILOS FOOTER ::::::::::::::::::::::::::::::: */
 
