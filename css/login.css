@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-color: #191919;
+    --white-color:#ffffff;
+    --purple-color: rgb(117, 41, 149);
+    --purplelight-color: rgb(169, 83, 206);
+    --aqua-color: aqua;
+    --gray-color: gray;
+    --ligh-color: #F3F3F3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color);
+}
+
+p{
+    color: var(--dark-color);
+    text-align: justify;
+}
+
+/* :::::::::::::::::::::::::: ESTILOS ::::::::::::::::::::::::::::::: */
+
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-login h1{
+    text-align: center;
+}
+
+.form-login i{
+    color:purple;
+    background-color: #ffffff;
+    padding: 1rem 0.8rem;
+    border-radius: 100%;
+    border: 4px solid gray;
+}
+
+.form-login{
+    margin-top:10px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 1px 1px 2px var(--dark-color);
+    background-color: rgb(235, 235, 235); 
+    padding:40px;
+    border-radius: 5px;
+}
+
+.form-group {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.form-input{
+    border: 3px solid var(--gray-color);
+    padding: 0.5rem;
+    outline: none;
+}
+
+.form-input::placeholder{
+    font-size: 0.8rem;
+}
+
+.btn-azul, .btn-morado{
+    padding: 0.5rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-azul{
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-morado{
+    background-color: purple;
+    color: black;
+    font-weight: bold;
+}
+
+.form-olvido{
+    text-align: center;
+    color: rgb(1, 177, 177);
+    font-size: 0.9rem;
+}
+
+

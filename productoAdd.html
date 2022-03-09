@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+	<meta charset="utf-8">
+	<title>Animalandia</title>
+	<link rel="stylesheet" type="text/css" href="css/productos.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="icon" href="/img/sailormoonicon.JPG">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/4bc23db062.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/img/logo.jpg">
+            <span>
+                <a href="../dashboard.html"><br><strong>Home</strong>
+                <i class="fa-solid fa-arrow-rotate-left"></i></a>
+            </span>
+        </div>
+        <div class="sesion">
+            <img src="/img/golden.jpg">
+            <span>
+                <a href="../login.html"><strong>Bienvenido,</strong><br>usuario
+                <i class="fa-solid fa-right-from-bracket"></i></a>
+            </span>
+        </div>
+    </header>
+    <section id="dashboard">
+        <article class="menu">
+            <ul>
+                <li><a href="usuario.html"><i class="fa-solid fa-user fa-margin"></i>Usuarios</a></li>
+                <li><a href="cliente.html"><i class="fa-solid fa-users fa-margin"></i>Clientes</a></li>
+                <li><a href="productos.html"><i class="fa-solid fa-tag fa-margin"></i>Productos</a></li>
+                <li><a href="pedidos.html"><i class="fa-solid fa-cart-shopping fa-margin"></i>Pedidos</a></li>
+                <li><a href="reportes.html"><i class="fa-solid fa-arrow-trend-up fa-margin"></i>Reportes</a></li>
+            </ul>
+        </article>
+        <article class="contenido">
+            <form action="" method="" class="form-producto">
+                <div class="form-group">
+                    <label for="descripcion" class="form-label">Descripcion</label>
+                    <input type="text" name="descripcion" id="descripcion" class="form-input" placeholder="Ingrese la descripcion del producto">
+                </div>
+                <div class="form-group">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" name="descripcion" id="descripcion" class="form-input" placeholder="Ingrese el nombre del producto">
+                </div>
+                <div class="form-group">
+                    <label for="precio" class="form-label">Precio</label>
+                    <input type="number" name="precio" id="precio" class="form-input" placeholder="Ingrese el precio del producto">
+                </div>
+                <div class="form-group">
+                    <label for="categoria" class="form-label">Categoria</label>
+                    <select name="categoria" id="categoria" class="form-select">
+                        <c:forench>
+                            <option value="id">Juguetes</option>
+                        </c:forench>
+                        <c:forench>
+                            <option value="id1">Concentrado</option>
+                        </c:forench>
+                        <c:forench>
+                            <option value="id2">Medicamentos</option>
+                        </c:forench>
+                        <c:forench>
+                            <option value="id3">Accesorios</option>
+                        </c:forench>
+                    </select>
+                </div>
+                <button class="btn-morado">Guardar</button>
+            </form>
+        </article>
+    
+</body>
+</html>

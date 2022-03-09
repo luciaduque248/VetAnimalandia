@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-color: #191919;
+    --white-color:#ffffff;
+    --purple-color: rgb(117, 41, 149);
+    --purplelight-color: rgb(169, 83, 206);
+    --aqua-color: aqua;
+    --gray-color: gray;
+    --ligh-color: #F3F3F3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color);
+}
+
+p{
+    color: var(--dark-color);
+    text-align: justify;
+}
+
+/* :::::::::::::::::::::::::: HEADER ::::::::::::::::::::::::::::::: */
+
+header{
+    display: flex;
+}
+
+.logo img{
+    width: 20%;
+    margin: 1rem 0.5rem;
+}
+
+.logo{
+    width: 90%;
+}
+
+.sesion{
+    margin: 1rem 0;
+    width: 10%;
+    text-align: right;
+    color: rgb(139, 0, 139);
+    display: flex;
+    align-items: center;
+}
+
+.sesion img{
+    width: 30%;
+    border-radius: 50%;
+    border: 3px solid rgb(139, 0, 139);
+}
+
+/* :::::::::::::::::::::::::: container ::::::::::::::::::::::::::::::: */
+
+#dashboard{
+    display: flex;
+}
+
+.menu{
+    flex-basis: 30%;
+    background-color: rgb(19, 18, 18);
+    height: 100vh;
+    color: white;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    text-align: left;
+}
+
+.menu a:hover{
+    background-color: purple;
+    border-left: 3px solid white;
+    padding-left: 50px;
+    transition: all 1s;
+    color: black;
+    width: 300px;
+}
+
+.fa-margin{
+    margin: 0 0.3rem;
+}
+
+.contenido{
+    flex-basis: 80%;
+    background-color: white;
+    padding: 30px;
+}
+
+header span a{
+    color: rgb(102, 51, 153);
+}
+
+.sesion a{
+    color: purple;
+    text-decoration: none;
+}

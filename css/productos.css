@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-color: #191919;
+    --white-color:#ffffff;
+    --purple-color: rgb(102, 51, 153);
+    --purplelight-color: rgb(169, 83, 206);
+    --aqua-color: aqua;
+    --gray-color: gray;
+    --ligh-color: #F3F3F3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color);
+}
+
+p{
+    color: var(--dark-color);
+    text-align: justify;
+}
+
+/* :::::::::::::::::::::::::: HEADER ::::::::::::::::::::::::::::::: */
+
+header{
+    display: flex;
+}
+
+.logo img{
+    width: 20%;
+    margin: 1rem 0.5rem;
+}
+
+.logo{
+    width: 90%;
+}
+
+.sesion{
+    margin: 1rem 0;
+    width: 10%;
+    text-align: right;
+    color: rgb(139, 0, 139);
+    display: flex;
+    align-items: center;
+}
+
+.sesion img{
+    width: 30%;
+    border-radius: 50%;
+    border: 3px solid rgb(139, 0, 139);
+}
+
+/* :::::::::::::::::::::::::: container ::::::::::::::::::::::::::::::: */
+
+#dashboard{
+    display: flex;
+}
+
+.menu{
+    flex-basis: 30%;
+    background-color: rgb(19, 18, 18);
+    height: 100vh;
+    color: white;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    text-align: left;
+}
+
+.menu a:hover{
+    background-color: purple;
+    border-left: 3px solid white;
+    padding-left: 50px;
+    transition: all 1s;
+    color: black;
+    width: 300px;
+}
+
+.fa-margin{
+    margin: 0 0.3rem;
+}
+
+.contenido{
+    flex-basis: 80%;
+    background-color: white;
+    padding: 30px;
+}
+
+.tabla-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabla-intro img{
+    max-width: 100px;
+    border-radius: 50%;
+    border: 3px solid purple;
+}
+
+.tabla-intro h1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.tabla-intro a{
+    border-radius: 5%;
+}
+
+.frm-busqueda{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.frm-busqueda input[type="text"]{
+    flex-basis: 80%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.frm-busqueda button{
+    flex-basis: 20%;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+table{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table th{
+    border: 2px solid black;
+    background-color: rgb(102, 51, 153);
+    color: white;
+    padding: 7px 0;
+}
+
+table td{
+    border: 2px solid black;
+    text-align: center;
+}
+
+header span a{
+    color: rgb(102, 51, 153);
+}
+
+.sesion a{
+    color: purple;
+    text-decoration: none;
+}
+
+
+
+
+/* :::::::::::::::::::::::::: botones ::::::::::::::::::::::::::::::: */
+.btn-azul{
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-morado{
+    background-color: rgb(102, 51, 153);
+    color: black;
+    font-weight: bold;
+    width: 800px;
+}
+
+.btn-azul, .btn-morado{
+    padding: 0.5rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::: PRODUCTOADD.HTML DISEÑO ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+.form-producto{
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-producto label{
+    color: black;
+}
+
+.form-producto select{
+    color: var(--gray-color);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+.form-producto input[type="submit"]{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::::: OTROS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/*estilos login*/
+  
+.sesion{
+    text-align: right;
+    color: var(--purple-color);
+    display: flex;
+    align-items: center;
+}
+
+.sesion img{
+    max-width: 60px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid var(--purple-color);
+}
+
+#dashboard{
+    display: flex;
+   
+}
+
+.contenido1 p{
+    color: #191919;
+    text-align: justify;
+    text-shadow: none;
+}
+
+.menu{
+    flex-basis: 20%;
+    background-color: var(--dark-color);
+    height: 100vh;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.menu li{
+    color: white;
+    
+}
+
+.menu a{
+    color: var(--ligh-color);
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    
+}
+
+.menu a:hover{
+    background-color: var(--purple-color);
+    color:var(--dark-color);
+    border:3px solid var(--white-color);
+    padding-left: 40px;
+    transition: all 2s;
+    
+}
+
+.menu i{
+    
+    margin: 3px;
+}
+
+
+.contenido1{
+    flex-basis: 80%;
+    background-color: var(--ligh-color);
+    padding: 30px;
+}
+
+.tabla-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabla-intro img{
+    max-width:100px;
+    border-radius: 50%;
+}
+.tabla-intro h1{
+    color: var(--dark-color);
+    font-family: 'Roboto', sans-serif;
+}
+.tabla-intro a{
+    border-radius: 5%;
+}
+.frm-busqueda{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0;
+}
+.frm-busqueda input[type="text"]/*tipo de input*/ {
+    flex-basis: 80%;
+    padding: 10px;
+    border: 2px solid var(--dark-color);
+
+}
+.frm-busqueda button{
+    flex-basis: 20%;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+
+table{
+    width: 100%;
+    border: 2px solid;
+}
+
+table th{
+    background-color: var(--purple-color);
+    border: 2px solid  var(--dark-color);
+    color: var(--white-color);
+    padding: 7px 0;
+}
+
+table td{
+    border: 2px solid var(--dark-color);
+    text-align: center;
+}
+
