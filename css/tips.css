@@ -110,7 +110,7 @@ nav{
 /* :::::::::::::::::::::::::: ESTILOS PRIMERA SECCION ::::::::::::::::::::::::::::::: */
 
 #tips{
-    background-image: url(/img/fondoHuellas.png);
+    background-image: url(../img/fondoHuellas.png);
     background-repeat: no-repeat;
     background-size: 84.5rem;
     padding: 1.5rem 7rem;

@@ -183,10 +183,11 @@ header span a{
 }
 
 .btn-morado{
-    background-color: rgb(102, 51, 153);
+    background-color: var(--purple-color);
     color: black;
     font-weight: bold;
-    width: 800px;
+    width: 100px;
+    border-radius: 5px;
 }
 
 .btn-azul, .btn-morado{

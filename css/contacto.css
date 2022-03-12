@@ -108,7 +108,7 @@ nav{
 #contacto{
     padding: 2rem;
     display: flex;
-    background-image: url(/img/fondoHuella.png);
+    background-image: url(../img/fondoHuella.png);
     margin: 2rem 5rem;
 
 }
