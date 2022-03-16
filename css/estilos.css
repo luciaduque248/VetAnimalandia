@@ -31,6 +31,7 @@ p{
 
 header{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
@@ -75,13 +76,11 @@ header{
     color: black;
 }
 
-.fa-iconoReg{
-    color: white;
-}
+
 
 
 .b-morado:hover{
-    color: var(--white-color);
+    color: white;
     background: var(--purple-color);
     border-color: var(--purple-color);
     cursor: pointer;
@@ -90,6 +89,7 @@ header{
 
 nav{
     display: flex;
+    flex-direction: column;
     background-color: var(--purple-color);
 }
 
@@ -111,6 +111,8 @@ nav{
 
 #agenda{
     display: flex;
+    flex-direction: column;
+    margin-top: 0.2rem;
 }
 
 .cita{
@@ -151,6 +153,8 @@ nav{
 .promocion img{
     border-radius: 50%;
     border: 7px solid var(--white-color);
+    max-width: 300px;
+    width: 50%;
 }
 
 
@@ -209,3 +213,5 @@ footer{
     color: white;
 
 }
+
+/* :::::::::::::::::::::::::: RESPONSIVE::::::::::::::::::::::::::::::: */
