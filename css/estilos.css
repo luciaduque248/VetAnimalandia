@@ -77,6 +77,7 @@ header{
 
 
 
+
 .b-morado:hover{
     color: white;
     background: var(--purple-color);
@@ -271,11 +272,11 @@ footer{
     }
 
     .cita{
-        flex-basis: 50%;
+        flex-basis: 60%;
     }
 
     .promocion{
-        flex-basis: 50%;
+        flex-basis: 40%;
     }
 
     .promocion img{
@@ -311,11 +312,11 @@ footer{
     }
 
     .cita{
-        flex-basis: 50%;
+        flex-basis: 70%;
     }
 
     .promocion{
-        flex-basis: 50%;
+        flex-basis: 30%;
     }
 
     .promocion img{
