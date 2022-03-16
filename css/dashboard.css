@@ -31,16 +31,63 @@ p{
 
 header{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
 }
 
+.fa-solid{
+    padding-right: 0.5rem;
+    
+}
 .logo img{
-    width: 20%;
-    margin: 1rem 0.5rem;
+    max-width: 290px;
+    width: 100%;
 }
 
-.logo{
-    width: 90%;
+
+.b-azul{
+    font-weight: 600;
+    background: linear-gradient(#07ffff, #016e6e );
+    border-radius: 5px;
+    border-color: 5px solid white;
+    border-style: solid;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
+.b-azul:hover{
+    color: var(--white-color);
+    background: linear-gradient(#016e6e, #07ffff);
+    border-color: var(--white-color);
+    cursor: pointer;
+}
+
+.b-morado{
+    font-weight: 600;
+    background-color: var(--white-color);
+    border-color: var(--purple-color);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: black;
+}
+
+.b-morado:hover{
+    color: white;
+    background: var(--purple-color);
+    border-color: var(--purple-color);
+    cursor: pointer;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--purple-color);
+}
+
 
 .sesion{
     margin: 1rem 0;

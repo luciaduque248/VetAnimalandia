@@ -90,6 +90,7 @@ header{
 
 nav{
     display: flex;
+    flex-direction: row;
     background-color: var(--purple-color);
 }
 
@@ -232,4 +233,40 @@ footer{
 .foot p{
     color: white;
 
+}
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: tableta ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:768px) {
+    header{
+        flex-direction: row;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    
+    #equipo{
+        flex-direction: row;
+    }
+
+    .box-footer {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+/* ::::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: Resolucion media :::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1024px) {
+    header{
+        flex-direction: row;
+    }
+
+    nav{
+        flex-direction: row;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: Resolucion media ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1200px) {
+    header{
+        flex-direction: row;
+    }
 }

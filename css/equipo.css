@@ -30,6 +30,7 @@ p{
 /* :::::::::::::::::::::::::: ESTILOS HOME ::::::::::::::::::::::::::::::: */
 header{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
@@ -41,7 +42,7 @@ header{
     
 }
 .logo img{
-    max-width: 270px;
+    max-width: 290px;
     width: 100%;
 }
 
@@ -50,10 +51,9 @@ header{
     font-weight: 600;
     background: linear-gradient(#07ffff, #016e6e );
     border-radius: 5px;
-    border-color: var(--white-color);
+    border-color: 5px solid white;
     border-style: solid;
     padding: 0.5rem 1rem;
-    margin-right: 5rem;
     cursor: pointer;
 }
 .b-azul:hover{
@@ -69,16 +69,12 @@ header{
     border-color: var(--purple-color);
     border-radius: 5px;
     padding: 0.5rem 1rem;
-    margin-right: 3rem;
     cursor: pointer;
+    color: black;
 }
 
-
-
-
-
 .b-morado:hover{
-    color: var(--white-color);
+    color: white;
     background: var(--purple-color);
     border-color: var(--purple-color);
     cursor: pointer;
@@ -87,6 +83,7 @@ header{
 
 nav{
     display: flex;
+    flex-direction: column;
     background-color: var(--purple-color);
 }
 
@@ -125,6 +122,7 @@ nav{
 
 #equipo{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -186,4 +184,42 @@ footer{
 .foot p{
     color: white;
 
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: tableta ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:768px) {
+    header{
+        flex-direction: row;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    
+    #equipo{
+        flex-direction: row;
+    }
+
+    .box-footer {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: Resolucion media :::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1024px) {
+    header{
+        flex-direction: row;
+    }
+
+    nav{
+        flex-direction: row;
+    }
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::: RESPONSIVE: Resolucion media ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width:1200px) {
+    header{
+        flex-direction: row;
+    }
 }
